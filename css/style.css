@@ -1,0 +1,463 @@
+body
+{
+    margin: 0;
+    background:#eee;
+    height: auto;
+    font-family: 'Alegreya Sans SC',serif;
+
+}
+.loc
+{
+    text-decoration: underline;
+    font-size: 20px;
+}
+h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+    font-family: 'oswald',serif;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+main
+{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1);
+}
+#landing
+{
+    display: grid;
+    background: #fff;
+    grid-column: 1/-1;
+}
+
+#landing-text h2{
+    color: #888;
+}
+#landing-image2
+{
+    background: url(../imgs/diff.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    flex: 0 1 60vh;
+    margin: 0;
+}
+#landing-image
+{
+    background: url(../imgs/main2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    flex: 0 1 60vh;
+    margin: 0;
+}
+#landing-text
+{
+    display: flex;
+    flex:0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#landing-image3
+{
+    background: url(../imgs/historycheese.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    flex: 0 1 60vh;
+    margin: 0;
+}
+
+
+.btn
+{
+    padding: 8px 20px;
+    border: 1px #ccc solid;
+    margin: 20px 0 0;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    transition: background 500ms ease;
+}
+.btn:hover
+{
+    background: #f4f4f4;
+    text-decoration: underline;
+}
+.btn::after
+{
+    text-decoration: underline;
+}
+.current a
+{
+    text-decoration: underline;
+}
+.btn:active
+{
+    text-decoration: underline;
+}
+#header
+{
+padding: 1.5rem;
+text-align: center;
+background: #333;
+color: #fff;
+grid-column:  2/span1;
+}
+#header h2{
+border-left: dotted 1px #fff;
+border-right: dotted 1px #fff;
+display: inline-block;
+padding-right: 16px;
+padding-left: 16px;
+}
+.caption
+{
+    padding: 0.8rem;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 5fr 1fr;
+    grid-template-rows: repeat(10,auto);
+    grid-row-gap:15px;
+ }
+ #images
+ {
+     grid-column: 1/-1;
+ }
+.ingredients li
+{
+font-size: 20px;
+color: #fff;
+}
+.ingredients-image
+{
+    grid-column: 1/-1;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 3/span 2;
+    background-repeat: no-repeat;
+    
+}
+.ingredients
+{
+    grid-column: 2/span 2;
+    grid-row: 3/span 2;
+}
+.method
+{
+grid-column: 2/-1;
+grid-row: 4/span 1;
+}
+.method-image
+{
+    grid-column:2/span1;
+    max-height: 700px;
+    overflow: hidden;
+}
+.about-image{
+    grid-column: 1/-1;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 4/span 1;
+    }
+    
+    .about{
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+    }
+    
+    .method-image{
+    grid-column: 1/-1;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 3/span 1;
+    }
+    
+    .method{
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    
+    }
+    .clients{
+        grid-column: 2/ span 1;
+        grid-row: 4/span 1;
+        }
+        .clients-image
+        {
+        grid-column: 1/-1;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 4/span 1;
+        }
+        .contact
+        {
+        grid-column: 2/span 1;
+        grid-row:5/span 1 ;
+        }
+        .contact-image
+        {
+        grid-column: 1/-1;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 5/span 1;
+        }
+        .russia-image
+        {
+        grid-column: 1/-1;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 6/span 1;
+        }
+        .russia
+        {
+        grid-column: 2/span 1;
+        grid-row:6/ span 1 ;
+        }
+        .graham-image{
+grid-column: 1/-1;
+max-height: 700px;
+overflow: hidden;
+grid-row: 5/span 1;
+}
+            
+.graham{
+grid-column: 2/span 1;
+grid-row: 5/span 1;
+}
+.fill-image{
+grid-column: 1/-1;
+max-height: 700px;
+overflow: hidden;
+grid-row: 6/span 1;
+}
+                
+.fill{
+grid-column: 2/span 1;
+grid-row: 6/span 1;
+}
+.bake-image{
+grid-column: 1/-1;
+max-height: 700px;
+overflow: hidden;
+grid-row: 7/span 1;
+}
+                    
+.bake{
+grid-column: 2/span 1;
+grid-row: 7/span 1;
+}
+        
+.text-block{
+    background-color:white;
+    padding: 30px;
+    align-self: center;
+}
+.footer{
+    background-color: gray;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    grid-column: 1/-1;
+    position: sticky;
+  }
+  .skip a
+  {
+    -webkit-transition:initial;
+       transition: initial;
+  }
+  @media screen and (min-width: 800px){
+    #landing-image
+    {
+        background: url(../imgs/main2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 10 vh;
+        flex: 0 1 60vh;
+        margin: 0;
+    }
+    .btn{
+    padding: 8px 20px;
+    border: 1px #ccc solid;
+    margin: 20px 0 0;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    transition: background 500ms ease;
+    
+    }   
+    .container{
+        /* Requirement 5 code here*/
+        display: grid;
+        grid-template-columns:4fr 4fr;
+        grid-template-rows: repeat(10,auto);
+        grid-row-gap:15px;
+     }
+     .ingredients-image
+{
+    grid-column: 1/-1;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 3/span 2;
+    background-repeat: no-repeat;
+    
+}
+.ingredients
+{
+    grid-column: 2/span 2;
+    grid-row: 3/span 2;
+}
+.method
+{
+grid-column: 2/-1;
+grid-row: 4/span 1;
+}
+.method-image
+{
+    grid-column:2/span1;
+    max-height: 284px;
+    overflow: hidden;
+}
+.about-image{
+    grid-column: 1/2;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 4/span 1;
+    }
+    
+    .about{
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+    }
+    .graham-image{
+        grid-column: 1/2;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 5/span 1;
+        }
+        
+        .graham{
+        grid-column: 2/span 1;
+        grid-row: 5/span 1;
+        }
+        .fill-image{
+            grid-column: 1/2;
+            max-height: 700px;
+            overflow: hidden;
+            grid-row: 6/span 1;
+            }
+            
+            .fill{
+            grid-column: 2/span 1;
+            grid-row: 6/span 1;
+            }
+            .bake-image{
+                grid-column: 1/2;
+                max-height: 700px;
+                overflow: hidden;
+                grid-row: 7/span 1;
+                }
+                
+                .bake{
+                grid-column: 2/span 1;
+                grid-row: 7/span 1;
+                }
+    
+    
+    .method-image{
+    grid-column: 1/2;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 3/span 1;
+    }
+    
+    .method{
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    
+    }
+    .clients{
+        grid-column: 2/ span 1;
+        grid-row: 4/span 1;
+        }
+        .clients-image
+        {
+        grid-column: 1/2;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 4/span 1;
+        }
+        .contact
+        {
+        grid-column: 2/span 1;
+        grid-row:5/span 1 ;
+        }
+        .contact-image
+        {
+        grid-column: 1/2;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 5/span 1;
+        }
+        .russia-image
+        {
+        grid-column: 1/-1;
+        max-height: 700px;
+        overflow: hidden;
+        grid-row: 6/span 1;
+        }
+        .russia
+        {
+        grid-column: 2/span 1;
+        grid-row:6/ span 1 ;
+        }
+        .method-image img 
+        {
+            height: 284px;
+
+        }
+       .flex-container
+       {
+           display: flex;
+           flex-wrap: wrap;
+           flex-direction: row;
+           justify-content: center;
+           flex-basis: 50%;
+       } 
+       .content
+       {
+           flex: 1;
+       }
+       .sidebar
+       {
+           flex:1 1 auto;
+       }
+  }
+@media screen and (prefers-reduced-motion)
+{
+  .btn:hover
+  {
+      text-decoration: none;
+  }
+}
